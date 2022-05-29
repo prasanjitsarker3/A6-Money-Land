@@ -1,0 +1,29 @@
+body{
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  
+  input:hover,
+  input:active,
+  input:focus,
+  button:focus,
+  button:active,
+  button:hover,
+  .btn:active,
+  .btn.active {
+    outline: 0px !important;
+    -webkit-appearance: none;
+    box-shadow: none !important;
+  }
+  .opacity{
+    opacity: 0.9;
+  }
+  .img-banner{
+    height: 578px !important;
+    object-fit: cover;
+  }
